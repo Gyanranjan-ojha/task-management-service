@@ -1,0 +1,30 @@
+# Ignore virtual environment and dependencies
+.venv/
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs files
+logs/
+*.log
+*.log.*
+
+
+# Ignore IDE/editor-specific directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.csv.bak
