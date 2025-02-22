@@ -1,5 +1,5 @@
 """
-URL configuration for tasks_core project.
+URL configuration for tasks_manager project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('tasks_app.urls')),
+    path('', include('tasks.urls')),
 ]
 
 if settings.DEBUG:
