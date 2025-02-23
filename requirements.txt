@@ -4,12 +4,17 @@ django==5.1.6
 
 # Django Crispy Forms is a Django application that lets you easily build, 
 # customize and reuse forms using your favorite CSS framework
-django-crispy-forms==2.3
+# django-crispy-forms==2.3
 
 # ____Required Database packages_____
 # PostgreSQL adapter for Python (used to interact with PostgreSQL)
 psycopg2-binary==2.9.10
 
+#____Required Pydantic packages_____
+pydantic==2.6.1
+pydantic-settings==2.2.1
+email-validator==2.1.0.post1
+
 # ____Required converter packages_____
 # xhtml2pdf is a HTML/CSS to PDF converter using Python
-xhtml2pdf==0.2.16
+# xhtml2pdf==0.2.16
