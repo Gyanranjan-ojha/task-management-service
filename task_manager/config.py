@@ -3,7 +3,7 @@ Environment variables settings for project.
 """
 from pydantic import SecretStr, EmailStr
 from pydantic_settings import BaseSettings
-from typing import Dict
+
 
 class EnvSettings(BaseSettings):
     """Settings class for managing environment variables used in the application."""

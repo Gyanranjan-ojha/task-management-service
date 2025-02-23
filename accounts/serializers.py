@@ -1,0 +1,1 @@
+# Write Serializer classes for the models in the accounts app.
