@@ -10,6 +10,9 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Ignore Migration files
+migrations/
+
 # Ignore logs files
 logs/
 *.log
